@@ -1,3 +1,6 @@
+body{
+    font-family: "poppins";
+}
 .texto{
       display:flex ;
       justify-content: center;
@@ -28,7 +31,7 @@ div.destaque div.bast{
     display: flex;
     flex-direction: column;
     border: 1px solid  gainsboro;
-    justify-content: ;
+   
 width: 300px;
 height: 500px;
 justify-content: space-between;
@@ -187,9 +190,18 @@ input{
      gap: 10px;
    }
 
+
+
+
+
+
+
+
+
   footer{
     padding-top: 30px;
     display:flex;
+    border: 1px solid gray;
 
     background-color: black;
     color: white;

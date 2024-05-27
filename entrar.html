@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagem/unsplash.svg" type="image/x-icon">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/entrar.css" type="text/css"/>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <title>Entrar</title>
+</head>
+<body>
+  
+    <header>
+        <div class="menu-top-form">
+            <h2><img src="imagem/icons/logo.svg" alt="logo"></h2>
+          
+            <div class="menucarrinho">
+                <a href="entrar.html">ENTRAR</a>
+               <img src="imagem/shopping-cart-simple.svg" alt="">
+            </div>
+        </div>
+
+        <nav>
+            <div class="submenu">
+                <ul>
+                     
+                    <li><a href="cao.html"   style=" color: rgb(84, 82, 82);">CÃES</a></li>
+                    <li><a href="gato.html "  style=" color: rgb(84, 82, 82);">GATOS</a></li>
+                    <li><a href="novididades.html"     style=" color: rgb(84, 82, 82);">NOVIDADES</a></li>
+                    <li><a href="index.html"     style=" color: rgb(84, 82, 82);">A TUA PETSHOP</a></li>
+                    
+                     
+                </ul>
+            </div>
+        </nav>
+
+ 
+    </header>
+    
+    
+  <section class="conteiner">
+<div class="login">
+
+<h2>Entrar</h2>
+<form class="box-input">
+    <input  type="email" placeholder="email ou numero de telefone" id="email">
+    <input  type="password" placeholder="senha" id="senha">
+<a class="btn" onclick="logar(); return false">Entrar</a>
+</form>
+<div class="support">
+<div class="remember">
+<span><input type="checkbox"  id="check"></span>
+<label for="check">Lembre-se de mim</label>
+
+</div>
+
+</div>
+<footer>
+    <div class="footer">
+<p>Novo por aqui?</p>
+<a href="#" >Assine agora</a>
+    </div>
+    <p class="descrepert-footer"> Está página é protegida pelo Google reCaptcha
+        para garantir que você não é um robó
+        <span>Saiba mais</span>
+    </p>
+</footer>
+</div>
+  </section>
+
+  <script>
+    function logar(){
+    var email=document.getElementById('email').value;
+    var senha=document.getElementById('senha').value;
+    if  (email=='suzana' && senha=='suwamy'){
+    alert('BEM VINDO!')
+    location.href="home.html";
+    }
+    else{
+        alert('usuario email e senha incorreta!')
+    }
+    
+    }
+    
+    </script>
+</body>
+</html>
